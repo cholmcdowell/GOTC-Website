@@ -17,4 +17,25 @@ body {
     background-repeat: no-repeat; /* Prevents tiling */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
   } 
-            
+
+  #shuffle-btn {
+    position: fixed; /* Keep at bottom */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Centers button */
+    background-color: #44d3fe; /* Iceberg blue (GoT theme) */
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Cinzel', serif; /* Match title font */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow */
+  }
+  
+  #shuffle-btn:hover {
+    background-color: #b22222; /* Lighter red on hover */
+  }
+      
