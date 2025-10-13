@@ -20,7 +20,7 @@ body {
 
   #shuffle-btn {
     position: fixed; /* Keep at bottom */
-    bottom: 20px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%); /* Centers button */
     background-color: #44d3fe; /* Iceberg blue (GoT theme) */
