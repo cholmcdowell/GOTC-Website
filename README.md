@@ -14,13 +14,11 @@ This project is currently in its creation stage. Core logic, layout, and visual 
 
 ## 🎯 Overview
 
-**Game of Thrones: Catan Board Generator** is a web-based project that aims to merge the strategy of *Settlers of Catan* with the intrigue and lore of *Game of Thrones*.  
+**Game of Thrones: Catan Board Generator** is a web-based personal project that aims to display a generated **Settlers of Catan: Game of Thrones version** board, ready to be mirrored for the user's physical board.  
 
 Once complete, users will be able to:
-- Generate randomized, balanced Catan boards  
-- Apply Game of Thrones–inspired regions and factions  
-- Customize board configurations  
-- Export or share generated setups for play  
+- Generate randomized, balanced Catan boards   
+- Customize board configurations   
 
 ---
 
@@ -29,9 +27,7 @@ Once complete, users will be able to:
 | Feature | Description | Status |
 |----------|--------------|---------|
 | 🎲 Random Board Generation | Create balanced and fair tile layouts | ⏳ In Progress |
-| ⚔️ Faction Integration | Assign Catan regions to Westerosi houses | ⏳ Planned |
 | 🗺️ Custom Layouts | Choose map size, terrain, and resource balance | ⏳ Planned |
-| 💾 Save & Share | Export board setups | ⏳ Planned |
 
 ---
 
@@ -50,19 +46,8 @@ Once complete, users will be able to:
 - [x] Basic layout and styling  
 - [ ] Tile generation logic  
 - [ ] Resource distribution algorithm  
-- [ ] Faction overlay design  
-- [ ] Export functionality  
+- [ ] User custom resource tailoring
+- [ ] Website deployment
 
 ---
 
-## ⚙️ Getting Started
-
-```bash
-# Clone this repository
-git clone https://github.com/your-username/got-catan-board-generator.git
-
-# Navigate into the project folder
-cd got-catan-board-generator
-
-# Open in VSCode
-code .
