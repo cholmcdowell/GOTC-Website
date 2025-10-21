@@ -39,10 +39,36 @@ body {
     background-color: #b22222; /* Lighter red on hover */
   }
 
-.hex-tile {
-  display: block;
-  margin: 100px auto; /* Centers the image */
-  width: 150px; /* Adjust size */
-  height: auto;
-}
+  .board {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers all rows */
+    margin-top: 100px;
+    gap: 10px; /* Vertical space between rows */
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Horizontal space between hexes */
+  }
+
+  /* Slight offset for staggered rows */
+  .row-5 {
+    margin-left: 45px;
+  }
+
+  .row-6-first {
+    margin-left: 75px;
+  }
+
+  .row-6-last {
+    margin-left: 125px;
+  }
+
+  .hex-tile {
+    display: block;
+    width: 150px; /* Adjust size */
+    height: auto;
+  }
 
