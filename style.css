@@ -38,4 +38,11 @@ body {
   #shuffle-btn:hover {
     background-color: #b22222; /* Lighter red on hover */
   }
-      
+
+.hex-tile {
+  display: block;
+  margin: 100px auto; /* Centers the image */
+  width: 150px; /* Adjust size */
+  height: auto;
+}
+
